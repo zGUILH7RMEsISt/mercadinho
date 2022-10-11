@@ -27,33 +27,30 @@
     <label for="firstname">Medida</label>
     <input id="firstname" type="text" name="firstname" placeholder="Medida do produto" required>
   </div>
-  <div class="campo">
-    <label for="Categoria"><strong> Categoria </strong></label>
-    <select id="Categoria">
-      <option selected disable value="">Selecione</option>
-      <option>Carne</option>
-          <option>Leguminosas</option>
-          <option>Frutas</option> </select>
+  <div>
+  <br>
+    <table>     
+   <tr>
+     <th>CARNES</th>  
+    </tr>
   </div>
-  <fieldset class="grupo">
-    <div class="campo">
-      <select name="select">
-          <option value="valor1">Bife</option>
-          <option value="valor2" >Feijão</option>
-          <option value="valor3">Banana</option>
-        </select>
-    </div>
-    </fieldset>
-    <br>
+    <tr>
+     <td>Franco</td>
+     <td>Carne moida</td>
+     <td>Bife bovino</td>
+   </tr>
+  </table>
+  
+  <br>
     <label><strong>Concluir Cadastro</strong></label>
   </div>
   <button class="botao" type="submit">Concluir</button>
       </form>
   </body>
-
-
-CSS
-body {
+  
+  
+  
+  body {
     width: 20%;
     height: 10vh;
     background-image: linear-gradient(45deg,rgb(204, 95, 95),rgb(206, 203, 16));
@@ -71,17 +68,6 @@ label {
     color: rgb(233, 230, 227);
     
 }  
-
-
-
-
-
-
-
-
-      
-
-
-
-
-
+table,tr,th,td {
+    border:1px solid black;
+}
