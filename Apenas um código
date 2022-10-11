@@ -56,7 +56,7 @@ CSS
 body {
     width: 20%;
     height: 10vh;
-    background-image: linear-gradient(45deg,rgb(17, 14, 14),rgb(4, 139, 4));
+    background-image: linear-gradient(45deg,rgb(204, 95, 95),rgb(206, 203, 16));
 }
 h1 {
     font-family: Arial, Helvetica, sans-serif;
@@ -64,6 +64,13 @@ h1 {
     text-align: center;
     color: rgb(250, 237, 237);
 }
+button {
+    color: rgb(180, 104, 5);
+}
+label {
+    color: rgb(233, 230, 227);
+    
+}  
 
 
 
