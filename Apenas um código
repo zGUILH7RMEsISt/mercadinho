@@ -31,16 +31,16 @@
     <label for="Categoria"><strong> Categoria </strong></label>
     <select id="Categoria">
       <option selected disable value="">Selecione</option>
-      <option>Junior</option>
-          <option>Pleno</option>
-          <option>Senior</option> </select>
+      <option>Carne</option>
+          <option>Leguminosas</option>
+          <option>Frutas</option> </select>
   </div>
   <fieldset class="grupo">
     <div class="campo">
       <select name="select">
-          <option value="valor1">Valor 1</option>
-          <option value="valor2" >Valor 2</option>
-          <option value="valor3">Valor 3</option>
+          <option value="valor1">Bife</option>
+          <option value="valor2" >Feijão</option>
+          <option value="valor3">Banana</option>
         </select>
     </div>
     </fieldset>
