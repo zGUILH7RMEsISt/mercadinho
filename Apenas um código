@@ -27,18 +27,27 @@
     <label for="firstname">Medida</label>
     <input id="firstname" type="text" name="firstname" placeholder="Medida do produto" required>
   </div>
-  <div>
-  <br>
-    <table>     
-   <tr>
-     <th>CARNES</th>  
-    </tr>
-  </div>
+  <table>
     <tr>
-     <td>Franco</td>
-     <td>Carne moida</td>
-     <td>Bife bovino</td>
-   </tr>
+      <th>CARNE</th>
+      <th>HIGIENE</th>
+      <th>FRUTAS</th>
+    </tr>
+    <tr>
+      <td>Carne bovina</td>
+      <td>Sabonete</td>
+      <td>Laranja</td>
+    </tr>
+    <tr>
+      <td>Carne moida</td>
+      <td>Creme dental</td>
+      <td>Maça</td>
+    </tr>
+    <tr>
+      <td>Peixe</td>
+      <td>Papel Higiênico</td>
+      <td>Banana</td>
+    </tr>
   </table>
   
   <br>
@@ -48,8 +57,7 @@
       </form>
   </body>
   
-  
-  
+  css
   body {
     width: 20%;
     height: 10vh;
@@ -68,6 +76,11 @@ label {
     color: rgb(233, 230, 227);
     
 }  
-table,tr,th,td {
-    border:1px solid black;
-}
+
+  th, td {
+    border-color: #96D4D4;
+  }
+  table, th, td {
+    border: 1px solid rgb(247, 247, 243);
+    border-collapse: collapse;
+  }
