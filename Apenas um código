@@ -12,44 +12,25 @@
   <h1>Cadastro</h1>
   
   <div class="input-box">
-    <label for="firstname">Produto</label>
+    <label for="firstname">Produto</label><br>
     <input id="firstname" type="text" name="firstname" placeholder="Nome do produto" required>
   </div>
   <div class="input-box">
-    <label for="firstname">Marca</label>
+    <label for="firstname">Marca</label><br>
     <input id="firstname" type="text" name="firstname" placeholder="Marca do produto" required>
   </div>
   <div class="input-box">
-    <label for="firstname">Valor</label>
+    <label for="firstname">Valor</label><br>
     <input id="firstname" type="text" name="firstname" placeholder="Valor do produto" required>
   </div>
   <div class="input-box">
-    <label for="firstname">Medida</label>
+    <label for="firstname">Medida</label><br>
     <input id="firstname" type="text" name="firstname" placeholder="Medida do produto" required>
   </div>
-  <h3>Categoria</h3>
-  <table>
-    <tr>
-      <th>CARNE</th>
-      <th>HIGIENE</th>
-      <th>FRUTAS</th>
-    </tr>
-    <tr>
-      <td><button>Carne bovina</button></td>
-      <td><button>Sabonete</button></td>
-      <td><button>Laranja</button></td>
-    </tr>
-    <tr>
-      <td><button>Carne moida</button></td>
-      <td><button>Creme dental</button></td>
-      <td><button>Maça</button></td>
-    </tr>
-    <tr>
-      <td><button>Peixe</button></td>
-      <td><button>Papel higiênico</button></td>
-      <td><button>Banana</button></td>
-    </tr>
-  </table>
+  <div class="input-box">
+    <label for="firstname">Categoria</label><br>
+    <input id="firstname" type="text" name="firstname" placeholder="Categoria do produto" required>
+  </div>
   
   <br>
     <label><strong>Concluir Cadastro</strong></label>
