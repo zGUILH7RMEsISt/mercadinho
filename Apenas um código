@@ -31,14 +31,15 @@
     <label for="firstname">Categoria</label><br>
     <input id="firstname" type="text" name="firstname" placeholder="Categoria do produto" required>
   </div>
-  
-  <br>
-    <label><strong>Concluir Cadastro</strong></label>
+  <div class="input-box">
+    <label for="firstname">Supermercado</label><br>
+    <input id="firstname" type="text" name="firstname" placeholder="Nome do Supermercado" required>
   </div>
+  <br>
+    
   <button class="botao" type="submit">Concluir</button>
       </form>
   </body>
-  
  css
  
  body {
