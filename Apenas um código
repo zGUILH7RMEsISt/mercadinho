@@ -9,7 +9,7 @@
     <title>Cadastro</title>
 </head>
 <body>
-    <center><br><br><br>
+
  <form>   
   <h1>Cadastro</h1>
   <div class="input-box">
@@ -33,18 +33,18 @@
     <label for="firstname">Supermercado</label><br>
     <input id="firstname" type="text" name="firstname" placeholder="Nome do Supermercado" required>
   </div>
-  <div class="input-box"> 
-    <label for="firstname">Categoria</label><br>
-    <select name="apenas">
-    <options>Carboidratos</options>
-    <options>Frutas</options>
-    <options>Carnes e Ovos</options>
-    </select>
-  </div>
-   <br><br><br> 
+  Categoria
+  <select>
+    <option>Selecione</option>
+    <option>Frutas</option>
+    <option>Carnes/Ovos</option>
+    <option>Higiêni</option>
+    <option>Leguminosas</option>
+  </select>
+
   <button class="botao" type="submit">Concluir</button>
       </form>
-    </center>
+    
   </body>
  css
  
