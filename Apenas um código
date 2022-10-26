@@ -9,8 +9,9 @@
     <title>Cadastro</title>
 </head>
 <body>
+    <center><br><br><br>
+ <form>   
   <h1>Cadastro</h1>
-  
   <div class="input-box">
     <label for="firstname">Produto</label><br>
     <input id="firstname" type="text" name="firstname" placeholder="Nome do produto" required>
@@ -27,18 +28,23 @@
     <label for="firstname">Medida</label><br>
     <input id="firstname" type="text" name="firstname" placeholder="Medida do produto" required>
   </div>
-  <div class="input-box">
-    <label for="firstname">Categoria</label><br>
-    <input id="firstname" type="text" name="firstname" placeholder="Categoria do produto" required>
-  </div>
-  <div class="input-box">
+ 
+  <div class="input-box"> 
     <label for="firstname">Supermercado</label><br>
     <input id="firstname" type="text" name="firstname" placeholder="Nome do Supermercado" required>
   </div>
-  <br>
-    
+  <div class="input-box"> 
+    <label for="firstname">Categoria</label><br>
+    <select name="apenas">
+    <options>Carboidratos</options>
+    <options>Frutas</options>
+    <options>Carnes e Ovos</options>
+    </select>
+  </div>
+   <br><br><br> 
   <button class="botao" type="submit">Concluir</button>
       </form>
+    </center>
   </body>
  css
  
