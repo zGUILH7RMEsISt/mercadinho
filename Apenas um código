@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<!DOCTYPE html>
-<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -11,7 +9,7 @@
     <title>Cadastro</title>
 </head>
 <body>
-  
+  <div class="borda"> 
  <form> <center>
   <h1>Cadastro</h1>
   <div>Categoria:</div>
@@ -25,32 +23,33 @@
     <option>Limpeza/Utilidades</option>
   </select>
   
-  <div class="input-box">
-    <label for="firstname">Produto</label><br>
-    <input id="firstname" type="text" name="firstname" placeholder="Nome do produto" required>
-  </div>
-  <div class="input-box">
-    <label for="firstname">Marca</label><br>
-    <input id="firstname" type="text" name="firstname" placeholder="Marca do produto" required>
-  </div>
-  <div class="input-box">
-    <label for="firstname">Valor</label><br>
-    <input id="firstname" type="text" name="firstname" placeholder="Valor do produto" required>
-  </div>
-  <div class="input-box">
-    <label for="firstname">Medida</label><br>
-    <input id="firstname" type="text" name="firstname" placeholder="Medida do produto" required>
-  </div>
-  <div class="input-box"> 
-    <label for="firstname">Supermercado</label><br>
-    <input id="firstname" type="text" name="firstname" placeholder="Nome do Supermercado" required>
-  </div>
   
-  <input type="file" name="arquivos" multiple><br>
-  <button class="botao" type="submit">Concluir</button>
-  
-  </form> </center>
-  
+  <div class="input-box">
+      <label for="firstname">Produto</label><br>
+      <input id="firstname" type="text" name="firstname" placeholder="Nome do produto" required>
+    </div>
+    <div class="input-box">
+      <label for="firstname">Marca</label><br>
+      <input id="firstname" type="text" name="firstname" placeholder="Marca do produto" required>
+    </div>
+    <div class="input-box">
+      <label for="firstname">Valor</label><br>
+      <input id="firstname" type="text" name="firstname" placeholder="Valor do produto" required>
+    </div>
+    <div class="input-box">
+      <label for="firstname">Medida</label><br>
+      <input id="firstname" type="text" name="firstname" placeholder="Medida do produto" required>
+    </div>
+    <div class="input-box"> 
+      <label for="firstname">Supermercado</label><br>
+      <input id="firstname" type="text" name="firstname" placeholder="Nome do Supermercado" required>
+    </div>
+    
+    <input type="file" name="arquivos" multiple><br>
+    <button class="botao" type="submit">Concluir</button>
+    
+    </form> </center>
+  </div>
     
   </body
  css
@@ -85,8 +84,12 @@ label {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
  }
  form {
-    width: 10vw; margin-left : 40vw;        
+    width: 300px; 
+    margin-left : 40vw;        
+    border:1px black solid 
+    
  }
+
  
 
  
