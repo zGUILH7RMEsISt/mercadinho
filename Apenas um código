@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+<!DOCTYPE html>
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -9,9 +11,20 @@
     <title>Cadastro</title>
 </head>
 <body>
-
- <form>   
+  
+ <form> <center>
   <h1>Cadastro</h1>
+  <div>Categoria:</div>
+  
+  <select>
+    <option>Selecione</option>
+    <option>Frutas/Verduras</option>
+    <option>Carnes/Ovos</option>
+    <option>Higiene</option>
+    <option>Leguminosas</option>
+    <option>Limpeza/Utilidades</option>
+  </select>
+  
   <div class="input-box">
     <label for="firstname">Produto</label><br>
     <input id="firstname" type="text" name="firstname" placeholder="Nome do produto" required>
@@ -28,30 +41,25 @@
     <label for="firstname">Medida</label><br>
     <input id="firstname" type="text" name="firstname" placeholder="Medida do produto" required>
   </div>
- 
   <div class="input-box"> 
     <label for="firstname">Supermercado</label><br>
     <input id="firstname" type="text" name="firstname" placeholder="Nome do Supermercado" required>
   </div>
-  Categoria
-  <select>
-    <option>Selecione</option>
-    <option>Frutas</option>
-    <option>Carnes/Ovos</option>
-    <option>Higiêni</option>
-    <option>Leguminosas</option>
-  </select>
-
+  
+  <input type="file" name="arquivos" multiple><br>
   <button class="botao" type="submit">Concluir</button>
-      </form>
+  
+  </form> </center>
+  
     
-  </body>
+  </body
  css
- 
  body {
     width: 20%;
     height: 10vh;
     background:fixed
+    
+
 }
 h1 {
     font-family: Arial, Helvetica, sans-serif;
@@ -59,23 +67,27 @@ h1 {
     text-align: center;
     color: rgb(15, 12, 12);
 }
-button {
-    color: rgb(180, 104, 5);
-}
+
+
 label {
-    color: rgb(19, 18, 17);
-    
+    color: rgb(2, 65, 10);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+     
 }  
 
-  th, td {
-    border-color: #96D4D4;
-        padding-top: 10px;
-        padding-bottom: 20px;
-        padding-left: 30px;
-        padding-right: 40px;
-        padding: 15px;
-  }
-  table, th, td {
-    border: 1px solid rgb(0, 0, 0);
-    border-collapse: collapse;
-  }
+ select {
+    color: rgb(2, 65, 10);
+   font-style: italic;
+   
+ } 
+ div {
+    color: rgb(2, 65, 10);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+ }
+ form {
+    width: 10vw; margin-left : 40vw;        
+ }
+ 
+
+ 
+    
